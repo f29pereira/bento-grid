@@ -2,12 +2,13 @@
 CSS Module for WriteContent component
 */
 .card {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .title {
   font-weight: 600;
   font-size: 1.7rem;
+  line-height: 0.9;
   margin-bottom: 1rem;
 }
 

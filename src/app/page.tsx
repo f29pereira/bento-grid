@@ -1,6 +1,10 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import Grid from "./components/Grid/Grid";
 
 export default function Home() {
-  return <div>Home Component</div>;
+  return (
+    <main className={styles.padding}>
+      <Grid />
+    </main>
+  );
 }
