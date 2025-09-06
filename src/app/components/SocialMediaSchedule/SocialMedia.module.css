@@ -1,0 +1,26 @@
+/*
+CSS Module for SocialMediaSchedule component
+*/
+.card {
+  padding: 2rem 1rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.img {
+  width: 300px;
+  height: 250px;
+  margin: 1rem 0;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1;
+}
