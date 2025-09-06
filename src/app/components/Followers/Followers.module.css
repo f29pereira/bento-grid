@@ -1,0 +1,17 @@
+/*
+CSS Module for Followers component
+*/
+.card {
+  padding: 2rem;
+}
+
+.img {
+  width: 250px;
+  height: 220px;
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-weight: 500;
+  line-height: 0.9;
+}

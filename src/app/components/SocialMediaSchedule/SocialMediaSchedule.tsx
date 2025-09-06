@@ -1,4 +1,4 @@
-import styles from "./SocialMedia.module.css";
+import styles from "./SocialMediaSchedule.module.css";
 import Image from "next/image";
 
 export default function SocialMediaSchedule() {
