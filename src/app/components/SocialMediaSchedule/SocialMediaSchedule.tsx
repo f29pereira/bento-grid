@@ -1,6 +1,9 @@
 import styles from "./SocialMediaSchedule.module.css";
 import Image from "next/image";
 
+/**
+ * Renders social media post schedule card
+ */
 export default function SocialMediaSchedule() {
   return (
     <div className={`flex-col-center border-r-10 softPurpleBg ${styles.card}`}>

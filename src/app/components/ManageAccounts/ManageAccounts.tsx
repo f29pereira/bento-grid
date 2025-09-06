@@ -2,7 +2,7 @@ import styles from "./ManageAccounts.module.css";
 import Image from "next/image";
 
 /**
- * Renders the Manage accounts card
+ * Renders manage accounts and platforms card
  */
 export default function ManageAccounts() {
   return (

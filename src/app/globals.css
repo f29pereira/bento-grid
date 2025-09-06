@@ -50,6 +50,11 @@ p {
   border-radius: 10px;
 }
 
+/*Center Text*/
+.centerText {
+  text-align: center;
+}
+
 /*Text color*/
 .whiteText {
   color: var(--white);
@@ -65,10 +70,6 @@ p {
 
 .yellowText {
   color: var(--yellow-500);
-}
-
-.centerText {
-  text-align: center;
 }
 
 /*Background color*/

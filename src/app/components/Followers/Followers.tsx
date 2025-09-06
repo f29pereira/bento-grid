@@ -1,6 +1,9 @@
 import styles from "./Followers.module.css";
 import Image from "next/image";
 
+/**
+ * Renders followers growth card
+ */
 export default function Followers() {
   return (
     <div className={`flex-col-center purpleBg border-r-10 ${styles.card}`}>
