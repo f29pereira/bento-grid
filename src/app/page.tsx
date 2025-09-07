@@ -4,7 +4,9 @@ import Grid from "./components/Grid/Grid";
 export default function Home() {
   return (
     <main className={styles.padding}>
-      <Grid />
+      <div className="flex-col-center">
+        <Grid />
+      </div>
     </main>
   );
 }

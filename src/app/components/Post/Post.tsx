@@ -6,7 +6,9 @@ import Image from "next/image";
  */
 export default function Post() {
   return (
-    <div className={`softYellowBg border-r-10 ${styles.card}`}>
+    <div
+      className={`softYellowBg border-r-10 ${styles.card} ${styles.gridItem}`}
+    >
       <h1 className={styles.title}>
         Create and schedule content
         <span className="purpleText italic"> quicker.</span>

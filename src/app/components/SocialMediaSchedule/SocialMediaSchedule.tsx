@@ -6,7 +6,9 @@ import Image from "next/image";
  */
 export default function SocialMediaSchedule() {
   return (
-    <div className={`flex-col-center border-r-10 softPurpleBg ${styles.card}`}>
+    <div
+      className={`flex-col-center border-r-10 softPurpleBg ${styles.card} ${styles.gridItem}`}
+    >
       <h1 className={`${styles.centerText} ${styles.title}`}>
         Schedule to social media.
       </h1>

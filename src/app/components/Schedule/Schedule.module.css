@@ -8,9 +8,6 @@ CSS Module for Schedule component
 }
 
 .title {
-  font-weight: 600;
-  font-size: 1.6rem;
-  line-height: 0.9;
   margin-bottom: 1rem;
 }
 
@@ -18,4 +15,11 @@ CSS Module for Schedule component
   width: 256px;
   height: 170px;
   display: block;
+}
+
+@media (min-width: 1000px) {
+  .gridItem {
+    grid-column-start: 3;
+    grid-row: 4 / 6;
+  }
 }

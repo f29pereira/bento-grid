@@ -41,6 +41,14 @@ p {
   font-family: var(--font-DMSans);
 }
 
+h1,
+h2 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: -2px;
+  line-height: 0.9;
+}
+
 .italic {
   font-family: var(--font-DMSansItalic);
 }
@@ -53,6 +61,11 @@ p {
 /*Center Text*/
 .centerText {
   text-align: center;
+}
+
+/*Text Break for Small Screens*/
+.break-sm {
+  display: block;
 }
 
 /*Text color*/

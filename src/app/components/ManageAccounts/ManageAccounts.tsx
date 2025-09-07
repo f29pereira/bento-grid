@@ -6,7 +6,7 @@ import Image from "next/image";
  */
 export default function ManageAccounts() {
   return (
-    <div className={`whiteBg border-r-10 ${styles.card}`}>
+    <div className={`whiteBg border-r-10 ${styles.card} ${styles.gridItem}`}>
       <div className={`flex-col-center ${styles.imgCont}`}>
         <Image
           src="/images/illustration-multiple-platforms.webp"

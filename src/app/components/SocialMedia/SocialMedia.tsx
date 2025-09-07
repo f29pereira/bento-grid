@@ -6,7 +6,9 @@ import styles from "./SocialMedia.module.css";
  */
 export default function SocialMedia() {
   return (
-    <div className={`flex-col-center purpleBg border-r-10 ${styles.card}`}>
+    <div
+      className={`flex-col-center purpleBg border-r-10 ${styles.card} ${styles.gridItem}`}
+    >
       <h1 className={`whiteText centerText ${styles.title}`}>
         Social Media <span className="yellowText">10x</span>{" "}
         <span className="italic">Faster</span> with AI

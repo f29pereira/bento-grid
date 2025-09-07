@@ -6,7 +6,7 @@ import Image from "next/image";
  */
 export default function Audience() {
   return (
-    <div className={`whiteBg border-r-10 ${styles.card}`}>
+    <div className={`whiteBg border-r-10 ${styles.card} ${styles.gridItem}`}>
       <h1 className={styles.title}>&#62;56&#37;</h1>
       <p className={styles.text}>faster audience growth</p>
       <Image

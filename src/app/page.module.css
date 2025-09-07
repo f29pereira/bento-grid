@@ -7,6 +7,6 @@ CSS Module for the Home component
 
 @media (min-width: 1000px) {
   .padding {
-    padding: 4rem 8rem;
+    padding: 6rem 8rem;
   }
 }

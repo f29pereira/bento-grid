@@ -6,7 +6,7 @@ import Image from "next/image";
  */
 export default function WriteContent() {
   return (
-    <div className={`yellowBg border-r-10 ${styles.card}`}>
+    <div className={`yellowBg border-r-10 ${styles.card} ${styles.gridItem}`}>
       <h1 className={styles.title}>Write your content using AI.</h1>
       <Image
         src="/images/illustration-ai-content.webp"

@@ -6,7 +6,9 @@ import Image from "next/image";
  */
 export default function Followers() {
   return (
-    <div className={`flex-col-center purpleBg border-r-10 ${styles.card}`}>
+    <div
+      className={`flex-col-center purpleBg border-r-10 ${styles.card} ${styles.gridItem}`}
+    >
       <Image
         src="/images/illustration-grow-followers.webp"
         alt="Followers growth"
@@ -14,8 +16,9 @@ export default function Followers() {
         height={226}
         className={styles.img}
       />
-      <h1 className={`whiteText centerText ${styles.text}`}>
-        Grow followers with non-stop content.
+      <h1 className={`whiteText centerText ${styles.title}`}>
+        Grow followers <span className="break-sm"></span> with non-stop
+        <span className="break-sm"></span> content.
       </h1>
     </div>
   );
