@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: "/bento-grid",
+  assetPrefix: "/bento-grid/",
+  output: "export",
 };
 
 export default nextConfig;
