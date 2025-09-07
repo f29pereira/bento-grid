@@ -25,4 +25,15 @@ CSS Module for Audience component
     grid-column-start: 2;
     grid-row: 6 / 9;
   }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
 }

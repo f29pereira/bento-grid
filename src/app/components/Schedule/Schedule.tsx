@@ -6,6 +6,7 @@ export default function Schedule() {
     <div className={`yellowBg border-r-10  ${styles.card} ${styles.gridItem}`}>
       <h1 className={styles.title}>
         Maintain a consistent <span className="break-sm"></span> posting
+        <span className={styles.breakDesktop}></span>
         schedule.
       </h1>
       <Image

@@ -16,7 +16,11 @@ export default function ManageAccounts() {
           className={styles.img}
         />
       </div>
-      <h1 className={styles.title}>Manage multiple accounts and platforms.</h1>
+      <h1 className={styles.title}>
+        Manage<span className={styles.breakDesktop}></span> multiple
+        <span className={styles.breakDesktop}></span> accounts and
+        <span className={styles.breakDesktop}></span> platforms.
+      </h1>
     </div>
   );
 }

@@ -22,4 +22,12 @@ CSS Module for Schedule component
     grid-column-start: 3;
     grid-row: 4 / 6;
   }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .breakDesktop {
+    display: block;
+  }
 }

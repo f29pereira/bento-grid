@@ -9,8 +9,8 @@ export default function SocialMediaSchedule() {
     <div
       className={`flex-col-center border-r-10 softPurpleBg ${styles.card} ${styles.gridItem}`}
     >
-      <h1 className={`${styles.centerText} ${styles.title}`}>
-        Schedule to social media.
+      <h1 className={`centerText ${styles.title}`}>
+        Schedule to <span className={styles.breakDesktop}></span> social media.
       </h1>
       <Image
         src="/images/illustration-schedule-posts.webp"
@@ -19,8 +19,10 @@ export default function SocialMediaSchedule() {
         height={638}
         className={styles.img}
       />
-      <p className={`${styles.centerText} ${styles.text}`}>
-        Optimize post timings to publish content at the perfect time for your
+      <p className={`centerText ${styles.text}`}>
+        Optimize post timings <span className={styles.breakDesktop}></span> to
+        publish content at <span className={styles.breakDesktop}></span> the
+        perfect time for <span className={styles.breakDesktop}></span> your
         audience.
       </p>
     </div>

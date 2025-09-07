@@ -6,9 +6,7 @@ import Image from "next/image";
  */
 export default function Followers() {
   return (
-    <div
-      className={`flex-col-center purpleBg border-r-10 ${styles.card} ${styles.gridItem}`}
-    >
+    <div className={`purpleBg border-r-10 ${styles.card} ${styles.gridItem}`}>
       <Image
         src="/images/illustration-grow-followers.webp"
         alt="Followers growth"

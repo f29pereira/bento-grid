@@ -20,4 +20,22 @@ CSS Module for ManageAccounts component
     grid-column-start: 2;
     grid-row: 4 / 6;
   }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 1.5rem;
+  }
+
+  .breakDesktop {
+    display: block;
+  }
+
+  .img {
+    max-width: none;
+    width: 270px;
+    margin-right: -100px;
+  }
 }
