@@ -12,7 +12,7 @@ export default function Audience() {
         <p className={styles.text}>faster audience growth</p>
       </div>
       <Image
-        src="/images/illustration-audience-growth.webp"
+        src="images/illustration-audience-growth.webp"
         alt="sequence of Apple Human Emojis"
         width={358}
         height={334}

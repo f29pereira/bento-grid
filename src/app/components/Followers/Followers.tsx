@@ -8,7 +8,7 @@ export default function Followers() {
   return (
     <div className={`purpleBg border-r-10 ${styles.card} ${styles.gridItem}`}>
       <Image
-        src="/images/illustration-grow-followers.webp"
+        src="images/illustration-grow-followers.webp"
         alt="Followers growth"
         width={256}
         height={226}

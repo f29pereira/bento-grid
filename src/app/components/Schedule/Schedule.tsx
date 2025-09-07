@@ -10,7 +10,7 @@ export default function Schedule() {
         schedule.
       </h1>
       <Image
-        src="/images/illustration-consistent-schedule.webp"
+        src="images/illustration-consistent-schedule.webp"
         alt="Calendar showing consistent weekly schedule"
         width={256}
         height={193}

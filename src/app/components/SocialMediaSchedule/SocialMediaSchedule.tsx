@@ -13,7 +13,7 @@ export default function SocialMediaSchedule() {
         Schedule to <span className={styles.breakDesktop}></span> social media.
       </h1>
       <Image
-        src="/images/illustration-schedule-posts.webp"
+        src="images/illustration-schedule-posts.webp"
         alt="Schedule post graph showing the best day to post"
         width={715}
         height={638}

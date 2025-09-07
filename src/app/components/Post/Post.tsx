@@ -14,7 +14,7 @@ export default function Post() {
         <span className="purpleText italic"> quicker.</span>
       </h1>
       <Image
-        src="/images/illustration-create-post.webp"
+        src="images/illustration-create-post.webp"
         alt="Post button with arrow"
         width={382}
         height={182}

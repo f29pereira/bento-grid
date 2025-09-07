@@ -9,7 +9,7 @@ export default function ManageAccounts() {
     <div className={`whiteBg border-r-10 ${styles.card} ${styles.gridItem}`}>
       <div className={`flex-col-center ${styles.imgCont}`}>
         <Image
-          src="/images/illustration-multiple-platforms.webp"
+          src="images/illustration-multiple-platforms.webp"
           alt="accounts with followers numbers"
           width={633}
           height={134}

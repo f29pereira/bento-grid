@@ -9,7 +9,7 @@ export default function WriteContent() {
     <div className={`yellowBg border-r-10 ${styles.card} ${styles.gridItem}`}>
       <h1 className={styles.title}>Write your content using AI.</h1>
       <Image
-        src="/images/illustration-ai-content.webp"
+        src="images/illustration-ai-content.webp"
         alt="Post button with arrow"
         width={440}
         height={446}

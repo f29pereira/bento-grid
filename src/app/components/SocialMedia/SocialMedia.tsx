@@ -15,7 +15,7 @@ export default function SocialMedia() {
       </h1>
       <Image
         className={styles.img}
-        src="/images/illustration-five-stars.webp"
+        src="images/illustration-five-stars.webp"
         alt="Five start reviews"
         width={384}
         height={64}
