@@ -1,0 +1,12 @@
+/*
+CSS Module for the Home component
+*/
+.padding {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 1000px) {
+  .padding {
+    padding: 6rem 8rem;
+  }
+}

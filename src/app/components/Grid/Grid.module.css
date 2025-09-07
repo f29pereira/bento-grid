@@ -1,0 +1,19 @@
+/*
+CSS Module for Grid component
+*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    max-height: 800px;
+  }
+}

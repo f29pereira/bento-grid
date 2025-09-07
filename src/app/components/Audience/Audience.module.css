@@ -1,0 +1,39 @@
+/*
+CSS Module for Audience component
+*/
+.card {
+  padding: 1rem 2rem;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  margin-bottom: 1rem;
+}
+
+.img {
+  width: 180px;
+  height: 70px;
+}
+
+@media (min-width: 1000px) {
+  .gridItem {
+    grid-column-start: 2;
+    grid-row: 6 / 9;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+}
